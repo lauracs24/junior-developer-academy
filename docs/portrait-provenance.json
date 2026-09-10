@@ -1,0 +1,17 @@
+{
+  "provenance": "Generated using built-in image_gen; exactly one request per asset, in one parallel batch, no variants or retries. Fictional subjects for labelled demo profiles. Visual inspection complete.",
+  "assets": [
+    {
+      "name": "amina",
+      "prompt": "Use case: photorealistic-natural\nAsset type: labelled fictional demo-profile portrait for a modern junior-developer website.\nPrimary request: one polished but natural photorealistic editorial portrait of a fictional London early-career software developer, aged 25–32. This person is fictional, not a real person.\nScene/backdrop: solid light cool-grey studio background.\nStyle/medium: high-quality editorial photography with natural skin texture.\nComposition/framing: 1024x1024 square image, centered head-and-shoulder framing, shoulders fully within crop and comfortable space above the head. Looking directly at camera, gentle smile.\nLighting/mood: professional soft studio light, approachable and calm.\nConstraints: one person only; modern casual clothing; no suit, text, logos, watermark, or UI.\nSubject: Amina, a Black woman with medium-brown skin and shoulder-length natural curls, wearing a simple dark navy knit."
+    },
+    {
+      "name": "daniel",
+      "prompt": "Use case: photorealistic-natural\nAsset type: labelled fictional demo-profile portrait for a modern junior-developer website.\nPrimary request: one polished but natural photorealistic editorial portrait of a fictional London early-career software developer, aged 25–32. This person is fictional, not a real person.\nScene/backdrop: solid light cool-grey studio background.\nStyle/medium: high-quality editorial photography with natural skin texture.\nComposition/framing: 1024x1024 square image, centered head-and-shoulder framing, shoulders fully within crop and comfortable space above the head. Looking directly at camera, gentle smile.\nLighting/mood: professional soft studio light, approachable and calm.\nConstraints: one person only; modern casual clothing; no suit, text, logos, watermark, or UI.\nSubject: Daniel, a Black man with short hair and a neat light beard, wearing a charcoal casual overshirt."
+    },
+    {
+      "name": "priya",
+      "prompt": "Use case: photorealistic-natural\nAsset type: labelled fictional demo-profile portrait for a modern junior-developer website.\nPrimary request: one polished but natural photorealistic editorial portrait of a fictional London early-career software developer, aged 25–32. This person is fictional, not a real person.\nScene/backdrop: solid light cool-grey studio background.\nStyle/medium: high-quality editorial photography with natural skin texture.\nComposition/framing: 1024x1024 square image, centered head-and-shoulder framing, shoulders fully within crop and comfortable space above the head. Looking directly at camera, gentle smile.\nLighting/mood: professional soft studio light, approachable and calm.\nConstraints: one person only; modern casual clothing; no suit, text, logos, watermark, or UI.\nSubject: Priya, a South Asian woman with shoulder-length dark hair, wearing a simple blue knit."
+    }
+  ]
+}
