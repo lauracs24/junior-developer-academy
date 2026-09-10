@@ -1,5 +1,7 @@
 # The Junior Developer Academy
 
+[Open the live website preview](https://lauracs24.github.io/junior-developer-academy/)
+
 A website preview for an independent, trainee-led London developer showcase. The revised visual direction uses white, near-black and electric blue, a featured developer panel, and compact marketplace-style profiles.
 
 ## What works
