@@ -125,6 +125,22 @@ document.querySelectorAll('[data-portrait]').forEach(element => {
 });
 renderDevelopers();
 
+// Repeat the skills visually for a seamless loop; assistive technology reads them once.
+const skillsStrip = document.querySelector('.skills-strip');
+const skillsTrack = document.querySelector('#skills-track');
+const skillsToggle = document.querySelector('#skills-toggle');
+const skillsCopy = skillsTrack.querySelector('.skills-group').cloneNode(true);
+skillsCopy.setAttribute('aria-hidden', 'true');
+skillsTrack.appendChild(skillsCopy);
+skillsStrip.classList.add('is-animated');
+skillsToggle.hidden = false;
+skillsToggle.addEventListener('click', () => {
+  const paused = skillsStrip.classList.toggle('is-paused');
+  document.querySelector('#skills-toggle-icon').textContent = paused ? '▶' : 'Ⅱ';
+  document.querySelector('#skills-toggle-label').textContent = paused ? 'Play' : 'Pause';
+  skillsToggle.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} skills slideshow`);
+});
+
 // Progressive enhancement: the directory also works in browsers without WebMCP.
 if (document.modelContext?.registerTool) {
   const lifecycle = new AbortController();

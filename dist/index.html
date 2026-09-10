@@ -37,7 +37,21 @@
         <p class="visual-caption">Different backgrounds. A shared ambition to build.</p>
       </div>
     </section>
-    <div class="skills-strip" aria-label="Example developer skills"><span>NEW TALENT.<br><strong>SKILLS THAT MATTER.</strong></span><div><b class="skill-js">JS</b> JavaScript</div><div><b aria-hidden="true">⚛</b> React</div><div><b class="skill-node">N</b> Node.js</div><div><b class="skill-python">Py</b> Python</div><div><b class="skill-sql">{ }</b> SQL</div></div>
+    <section class="skills-strip" aria-labelledby="skills-heading">
+      <p class="skills-heading" id="skills-heading">NEW TALENT.<br><strong>SKILLS THAT MATTER.</strong></p>
+      <div class="skills-viewport" tabindex="0" role="group" aria-label="Example developer skills">
+        <div class="skills-track" id="skills-track">
+          <ul class="skills-group">
+            <li><b class="skill-js" aria-hidden="true">JS</b> JavaScript</li>
+            <li><b aria-hidden="true">⚛</b> React</li>
+            <li><b class="skill-node" aria-hidden="true">N</b> Node.js</li>
+            <li><b class="skill-python" aria-hidden="true">Py</b> Python</li>
+            <li><b class="skill-sql" aria-hidden="true">{ }</b> SQL</li>
+          </ul>
+        </div>
+      </div>
+      <button class="skills-toggle" id="skills-toggle" type="button" aria-controls="skills-track" aria-label="Pause skills slideshow" hidden><span id="skills-toggle-icon" aria-hidden="true">Ⅱ</span><span id="skills-toggle-label">Pause</span></button>
+    </section>
     <section class="directory section-wrap" id="developers" aria-labelledby="directory-title">
       <div class="section-heading"><div><p class="eyebrow">THE TALENT DIRECTORY</p><h2 id="directory-title">A fresh perspective for your team.</h2></div><p>Discover the person behind the projects.<br>Find the skills your team is looking for.</p></div>
       <div class="directory-tools"><div class="filters" role="group" aria-label="Filter by developer focus"><button class="filter active" aria-pressed="true" data-filter="all">All developers <span>10</span></button><button class="filter" aria-pressed="false" data-filter="Frontend">Frontend</button><button class="filter" aria-pressed="false" data-filter="Full-stack">Full-stack</button><button class="filter" aria-pressed="false" data-filter="Backend">Backend</button></div><label class="search"><svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search by name, skill or project</span><input id="search" type="search" placeholder="Find a skill or a name…" autocomplete="off"></label></div>
